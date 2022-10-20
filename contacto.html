@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contactanos</title>
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Enlace css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- Google fonts o tipo de letra -->
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;700;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Logo de pestaña icono -->
+    <link
+      rel="shortcut icon"
+      href="imagenes/logoipsum-248.svg"
+      type="image/x-icon"
+    />
+
+    <!-- Fontawesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+      integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  </head>
+
+  <body>
+    <header>
+      <a href="index.html">
+        <img src="imagenes/logoipsum-248.svg" alt="Logo" />
+      </a>
+      <nav>
+        <ul class="nav_list">
+          <li><a class="nav_link" href="index.html">Inicio</a></li>
+          <li><a class="nav_link" href="productos.html">Productos</a></li>
+          <li><a class="nav_link" href="nosotros.html">Nosotros</a></li>
+          <li><a class="nav_link" href="ayuda.html">Ayuda</a></li>
+          <li><a class="nav_link" href="contacto.html">Contactanos</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <h1 class="title">Contactanos</h1>
+
+      <div class="title">
+        <h2>Comienza hoy!</h2>
+        <p>Empieza a proyectar tus sueños y empieza a ganar con nosotros</p>
+      </div>
+
+      <section class="questions">
+        <div class="questions_info">
+          <h2>Telefonos</h2>
+          <ul>
+            <li>
+              <h3>Paseo Acoxpa</h3>
+              55-22-19-76-15
+            </li>
+            <li>
+              <h3>Toreo Parque Nacional</h3>
+              55-13-98-56-79
+            </li>
+            <li>
+              <h3>Antara</h3>
+              55-14-78-92-21
+            </li>
+            <li>
+              <h3>Parque la Mexicana</h3>
+              55-22-97-17-13
+            </li>
+            <li>
+              <h3>Correo electronico</h3>
+              goldeneagle@gmail
+            </li>
+          </ul>
+        </div>
+
+        <div class="questions_info">
+          <h2>Contacto</h2>
+          <form>
+            <legend>Estamos para ayudarte</legend>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="nombre" id="nombre" />
+
+            <br />
+
+            <label for="apellido">Apellido</label>
+            <input type="text" name="apellido" id="apellido" />
+
+            <br />
+            <label for="correo">Correo</label>
+            <input type="text" name="email" id="email" />
+
+            <br />
+
+            <label for="tipo de proyecto">Tipo de proyecto</label>
+            <select name="Estado" id="Estado">
+              <option value="S">Gubernamental</option>
+              <option value="C">Comercial</option>
+            </select>
+
+            <br />
+
+            <label for="comentarios"></label>
+            <textarea name="mensaje" id="comentarios" cols="30" rows="10">
+Enviar mensaje</textarea
+            >
+
+            <br />
+
+            <label for="enviar"></label>
+            <input type="submit" name="enviar formulario" />
+            <input type="reset" name="limpiar" value="Limpiar" id="borrar" />
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer_social">
+        <h2>Buscanos en las redes</h2>
+        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+      </div>
+      <div class="footer_copyright">
+        <h2>© Copyright 2022 | Golden Eagle Todos los derechos reservados.</h2>
+      </div>
+    </footer>
+  </body>
+</html>
