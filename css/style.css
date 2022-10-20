@@ -31,7 +31,6 @@ body {
 header {
   background-color: black;
   padding: 1rem;
-  position: sticky;
   top: 0;
 }
 
@@ -150,18 +149,18 @@ footer {
   flex-wrap: wrap;
 }
 
-.card {
+.map {
   margin: 3rem;
   padding: 2rem;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
 }
 
-.card_description {
+.map_description {
   padding: 1rem;
   text-align: center;
 }
 
-.card_title {
+.map_title {
   text-align: center;
 }
 
@@ -170,7 +169,7 @@ footer {
   margin: auto;
 }
 
-.card--back {
+.map--back {
   background-color: white;
 }
 
@@ -178,6 +177,6 @@ footer {
   padding: 1rem;
 }
 
-.card_frame {
+.map_frame {
   width: 100%;
 }
