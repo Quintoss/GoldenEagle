@@ -58,80 +58,100 @@
     </header>
 
     <main>
+
+      
+      
       <h1 class="title">Contactanos</h1>
 
-      <div class="title">
-        <h2>Comienza hoy!</h2>
-        <p>Empieza a proyectar tus sueños y empieza a ganar con nosotros</p>
+      
+        <h2 class="text-center">Comienza hoy!</h2>
+        <p  class="text-center">Empieza a proyectar tus sueños y empieza a ganar con nosotros</p>
       </div>
 
-      <section class="questions">
-        <div class="questions_info">
+  
+        <div class="text-bg-warning p-3">
           <h2>Telefonos</h2>
+        <div class=".flex-column d-flex justify-content-center">
+          
           <ul>
             <li>
-              <h3>Paseo Acoxpa</h3>
+              <h4>Paseo Acoxpa</h4>
               55-22-19-76-15
             </li>
             <li>
-              <h3>Toreo Parque Nacional</h3>
+              <h4>Toreo Parque Nacional</h4>
               55-13-98-56-79
             </li>
             <li>
-              <h3>Antara</h3>
+              <h4>Antara</h4>
               55-14-78-92-21
             </li>
             <li>
-              <h3>Parque la Mexicana</h3>
+              <h4>Parque la Mexicana</h4>
               55-22-97-17-13
             </li>
             <li>
-              <h3>Correo electronico</h3>
+              <h4>Correo electronico</h4>
               goldeneagle@gmail
             </li>
-          </ul>
+          </ul>          
+        </div>
         </div>
 
-        <div class="questions_info">
+
+        
+        
+
+        <div class="text-bg-light p-3">
+
           <h2>Contacto</h2>
+
+        <div class=".flex-column d-flex justify-content-center">
+          
+
           <form>
-            <legend>Estamos para ayudarte</legend>
+            <div class="mb-3">
+              <label for="nombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="nombre" />
+              <div id="nombre" class="form-text"></div>
+            </div>
 
-            <label for="nombre">Nombre</label>
-            <input type="text" name="nombre" id="nombre" />
+            <div class="mb-3">
+              <label for="telefono" class="form-label">Telefono</label>
+              <input type="text" class="form-control" id="telefono" />
+              <div id="telefono" class="form-text"></div>
+            </div>
 
-            <br />
+            <div class="mb-3">
+              <label for="proyecto" class="form-label">Tipo de proyecto</label>
+              <select class="form-select" aria-label="Default select example">
+                <option selected>Elegir opción</option>
+                <option value="1">Comercial</option>
+                <option value="2">Gubernamental</option>
+              </select>
 
-            <label for="apellido">Apellido</label>
-            <input type="text" name="apellido" id="apellido" />
+            <div class="mb-3">
+              <label for="email" class="form-label">Correo</label>
+              <input type="text" class="form-control" id="email" />
+            </div>
 
-            <br />
-            <label for="correo">Correo</label>
-            <input type="text" name="email" id="email" />
+            <div class="mb-3 form-check">
+              <input
+                type="checkbox"
+                class="form-check-input"
+                id="exampleCheck1"
+              />
+              <label class="form-check-label" for="exampleCheck1"
+                >Estoy de acuerdo con las condiciones</label
+              >
+            </div>
 
-            <br />
-
-            <label for="tipo de proyecto">Tipo de proyecto</label>
-            <select name="Estado" id="Estado">
-              <option value="S">Gubernamental</option>
-              <option value="C">Comercial</option>
-            </select>
-
-            <br />
-
-            <label for="comentarios"></label>
-            <textarea name="mensaje" id="comentarios" cols="30" rows="10">
-Enviar mensaje</textarea
-            >
-
-            <br />
-
-            <label for="enviar"></label>
-            <input type="submit" name="enviar formulario" />
-            <input type="reset" name="limpiar" value="Limpiar" id="borrar" />
+            <button type="submit" class="btn btn-dark">Enviar</button>
+            <button type="reset" class="btn btn-dark">Limpiar</button>
           </form>
         </div>
-      </section>
+        </div>
+     
     </main>
 
     <footer>
@@ -145,11 +165,14 @@ Enviar mensaje</textarea
         <h2>© Copyright 2022 | Golden Eagle Todos los derechos reservados.</h2>
       </div>
     </footer>
+
+
     <!-- JavaScript Bundle with Popper -->
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
       integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
       crossorigin="anonymous"
     ></script>
+
   </body>
 </html>
