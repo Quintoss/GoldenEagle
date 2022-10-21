@@ -117,12 +117,6 @@ footer {
   text-align: center;
 }
 
-.row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
 .map {
   margin: 3rem;
   padding: 2rem;
@@ -153,12 +147,4 @@ footer {
 
 .map_frame {
   width: 100%;
-}
-
-.back_color {
-  background-color: #fd7e14;
-}
-
-.back_color-contact {
-  background-color: black;
 }
