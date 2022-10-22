@@ -43,34 +43,60 @@
 
   <body>
     <header>
-      <a href="index.html">
-        <img src="imagenes/logoipsum-248.svg" alt="Logo" />
-      </a>
-      <nav>
-        <ul class="nav_list">
-          <li><a class="nav_link" href="index.html">Inicio</a></li>
-          <li><a class="nav_link" href="productos.html">Productos</a></li>
-          <li><a class="nav_link" href="nosotros.html">Nosotros</a></li>
-          <li><a class="nav_link" href="ayuda.html">Ayuda</a></li>
-          <li><a class="nav_link" href="contactanos.html">Contactanos</a></li>
-        </ul>
+      
+      <nav class="navbar navbar-expand-lg p-4 navbar-dark" style="background-color: black;">       
+         <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/logoipsum-248.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ayuda.html">Ayuda</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a>
+              </li>
+              
+            </ul>
+
+            </form>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
 
       
-      
-      <h1 class="title">Contactanos</h1>
+      <div class="text-white" style="background-color:#000 ;">
+      <h1 class="p-3">Contactanos</h1>
 
       
         <h2 class="text-center">Comienza hoy!</h2>
-        <p  class="text-center">Empieza a proyectar tus sueños y empieza a ganar con nosotros</p>
+        <p  class="text-center mb-0 p-3">Empieza a proyectar tus sueños y empieza a ganar con nosotros</p>
       </div>
 
   
-        <div class="text-bg-warning p-3">
-          <h2>Telefonos</h2>
+        <div class= "#" style="background-color: #fd7e14 ;">
+          <h2 class="p-3">Telefonos</h2>
         <div class=".flex-column d-flex justify-content-center">
           
           <ul>
@@ -102,9 +128,9 @@
         
         
 
-        <div class="text-bg-light p-3">
+        <div class="text-white" style="background-color: #000 ;">
 
-          <h2>Contacto</h2>
+          <h2 class="p-3">Contacto</h2>
 
         <div class=".flex-column d-flex justify-content-center">
           
@@ -146,8 +172,10 @@
               >
             </div>
 
+            <div class="text-center">
             <button type="submit" class="btn btn-dark">Enviar</button>
             <button type="reset" class="btn btn-dark">Limpiar</button>
+          </div>
           </form>
         </div>
         </div>

@@ -4,35 +4,8 @@
   box-sizing: border-box;
 }
 
-.nav_list {
-  list-style: none;
-  display: flex;
-  justify-content: flex-end;
-  align-items: center;
-  flex-wrap: wrap;
-}
-
-.nav_link:hover {
-  opacity: 0.4;
-}
-
-.nav_link {
-  color: white;
-  text-decoration: none;
-  display: block;
-  padding: 0.5rem;
-  margin: 1rem;
-}
-
 body {
   font-family: "Poppins", sans-serif !important;
-}
-
-header {
-  background-color: black;
-  padding: 1rem;
-  position: sticky;
-  top: 0;
 }
 
 .hero_image {
@@ -107,12 +80,6 @@ footer {
   opacity: 0.4;
 }
 
-.nosotros_intro {
-  padding: 2rem;
-  margin: 5rem;
-  text-align: center;
-}
-
 .nosotros_banner {
   background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
     url("https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
@@ -124,12 +91,20 @@ footer {
 }
 
 .nosotros_video {
-  padding: 2remm;
+  padding: 2rem;
+  text-align: center;
+  background: rgb(20, 20, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 19, 1) 10%,
+    rgba(68, 64, 64, 1) 49%,
+    rgba(27, 27, 27, 1) 100%
+  );
 }
 
 .video {
-  margin: 5rem;
-  width: 95%;
+  margin: 3rem;
+  width: 40%;
 }
 
 .values {
@@ -138,30 +113,26 @@ footer {
   padding: 5rem;
 }
 
-.vision {
-  margin: 2rem;
-  padding: 1rem;
-  text-align: center;
-}
-
-.row {
-  display: flex;
-  justify-content: center;
-  flex-wrap: wrap;
-}
-
-.card {
+.map {
   margin: 3rem;
-  padding: 2rem;
+  padding: 3rem;
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
 }
 
-.card_description {
+.card:hover {
+  transform: scale(1.1) translateY(-30px);
+}
+
+.map:hover {
+  transform: scale(1.1) translateY(-30px);
+}
+
+.map_description {
   padding: 1rem;
   text-align: center;
 }
 
-.card_title {
+.map_title {
   text-align: center;
 }
 
@@ -170,14 +141,10 @@ footer {
   margin: auto;
 }
 
-.card--back {
+.map--back {
   background-color: white;
 }
 
-.title {
-  padding: 1rem;
-}
-
-.card_frame {
+.map_frame {
   width: 100%;
 }

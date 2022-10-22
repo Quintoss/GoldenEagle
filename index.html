@@ -27,27 +27,58 @@
   crossorigin="anonymous"
   referrerpolicy="no-referrer"
 />
+
+<!-- CSS only -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+crossorigin="anonymous"
+/>
   </head>
 
   
 
   <body>
-    <header class="nav_background">
+    <header>
       
-      <a href="index.html">
-        <img src="imagenes/logoipsum-248.svg" alt="Logo" />
-      </a>
+      <nav class="navbar navbar-expand-lg p-4 navbar-dark" style="background-color: black;">       
+         <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/logoipsum-248.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
 
-      <nav>
-        <ul class="nav_list">
-          <li><a class="nav_link" href="index.html">Inicio</a></li>
-          <li><a class="nav_link" href="productos.html">Productos</a></li>
-          <li><a class="nav_link" href="nosotros.html">Nosotros</a></li>
-          <li><a class="nav_link" href="ayuda.html">Ayuda</a></li>
-          <li><a class="nav_link" href="contactanos.html">Contactanos</a></li>
-        </ul>
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ayuda.html">Ayuda</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a>
+              </li>
+              
+            </ul>
+
+            </form>
+          </div>
+        </div>
       </nav>
-    </div>
     </header>
 
     <main>
@@ -73,5 +104,13 @@
        <h2>© Copyright 2022 | Golden Eagle Todos los derechos reservados.</h2> 
       </div>
     </footer>
+
+    <!-- JavaScript Bundle with Popper -->
+ <script
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+ crossorigin="anonymous"
+></script>
+
   </body>
 </html>

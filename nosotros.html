@@ -29,35 +29,74 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+
+    <!-- CSS only -->
+<link
+href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css"
+rel="stylesheet"
+integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi"
+crossorigin="anonymous"
+/>
   </head>
 
   <body>
-    <header class="nav_background">
-      <a href="index.html">
-        <img
-          class="nav_background--img"
-          src="imagenes/logoipsum-248.svg"
-          alt="Logo sitio"
-        />
-      </a>
-      <nav>
-        <ul class="nav_list">
-          <li><a class="nav_link" href="index.html">Inicio</a></li>
-          <li><a class="nav_link" href="productos.html">Productos</a></li>
-          <li><a class="nav_link" href="nosotros.html">Nosotros</a></li>
-          <li><a class="nav_link" href="ayuda.html">Ayuda</a></li>
-          <li><a class="nav_link" href="contactanos.html">Contactanos</a></li>
-        </ul>
+    <header>
+      
+      <nav class="navbar navbar-expand-lg p-4 navbar-dark" style="background-color: black;">       
+         <div class="container-fluid">
+          <a class="navbar-brand" href="index.html">
+            <img src="imagenes/logoipsum-248.svg" alt="logo">
+          </a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse flex-grow-0" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="productos.html">Productos</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="nosotros.html">Nosotros</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="ayuda.html">Ayuda</a>
+              </li>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="contactanos.html">Contactanos</a>
+              </li>
+              
+            </ul>
+
+            </form>
+          </div>
+        </div>
+      </nav>
+    </header>
+              </li>
+              
+            </ul>
+
+            </form>
+          </div>
+        </div>
       </nav>
     </header>
 
     <main>
-      <h1 class="title">Nosotros</h1>
+      <h1 class="p-3">Nosotros</h1>
 
-      <section class="nosotros_intro">
+      <section class=" text-center p-3 m-5 ">
         <div class="contenedor">
           <h2>¿Quienes somos?</h2>
-          <p>
+          <p class="p-4">
             Somos una pequeña empresa ambiciosa, la cual busca entrar al mundo
             del ejercicio, por medio de productos de calidad.
           </p>
@@ -69,7 +108,7 @@
         </div>
       </section>
 
-      <section class="nosotros_banner">
+      <section class="nosotros_banner flex-wrap">
         <div class="hero_text">
           <h2 class="hero_text--titulo hero_description">Golden</h2>
           <p class="hero_description">
@@ -78,8 +117,8 @@
         </div>
       </section>
 
-      <section class="values">
-        <div class="vision">
+      <section class="d-inline-flex m-4 p-4  justify-content-center text-center flex-wrap">
+        <div class="col-12 col-md-6">
           <h2>Misión</h2>
           <p>
             Dar un servicio y calidad, derivando en crear una experiencia para
@@ -87,7 +126,7 @@
             mayor rentabilidad.
           </p>
         </div>
-        <div class="vision">
+        <div class="col-12 col-md-6">
           <h2>Visión</h2>
           <p>
             Golden Eagle tiene como objetivo ser la compañía líder en productos
@@ -98,9 +137,9 @@
       </section>
 
       <section class="nosotros_video">
-        <div class="nosotros_film">
+        <div>
           <iframe
-            class="video"
+            class="video flex-wrap"
             width="560"
             height="315"
             src="https://www.youtube.com/embed/yPjJA9VKX_Y"
@@ -124,5 +163,11 @@
         <h2>© Copyright 2022 | Golden Eagle Todos los derechos reservados.</h2>
       </div>
     </footer>
+    <!-- JavaScript Bundle with Popper -->
+ <script
+ src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+ integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+ crossorigin="anonymous"
+></script>
   </body>
 </html>
