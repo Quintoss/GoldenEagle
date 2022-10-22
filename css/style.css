@@ -119,6 +119,10 @@ footer {
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
 }
 
+.card:hover {
+  transform: scale(1.1) translateY(-30px);
+}
+
 .map:hover {
   transform: scale(1.1) translateY(-30px);
 }
