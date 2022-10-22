@@ -119,10 +119,6 @@ footer {
   box-shadow: 0 10px 30px -10px rgba(0, 0, 0, 0.45);
 }
 
-.card:hover {
-  transform: scale(1.1) translateY(-30px);
-}
-
 .map:hover {
   transform: scale(1.1) translateY(-30px);
 }
@@ -147,4 +143,13 @@ footer {
 
 .map_frame {
   width: 100%;
+}
+
+.button {
+  transition: width 1s, backgorund-color 10s;
+}
+
+.button:hover {
+  width: 100%;
+  background-color: #fd7e14 !important;
 }
