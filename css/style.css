@@ -77,7 +77,8 @@ footer {
 }
 
 .footer_social a:hover {
-  opacity: 0.4;
+  opacity: 0.7;
+  color: #fd7e14;
 }
 
 .button {
@@ -86,7 +87,7 @@ footer {
 
 .button:hover {
   width: 100%;
-  background-color: #fd7e14 !important;
+  background-color: #fd7e14;
 }
 
 .nosotros_banner {
@@ -136,26 +137,4 @@ footer {
     rgba(0, 0, 0, 0.1) 0px -79px 40px 0px inset, rgba(0, 0, 0, 0.06) 0px 2px 1px,
     rgba(0, 0, 0, 0.09) 0px 4px 2px, rgba(0, 0, 0, 0.09) 0px 8px 4px,
     rgba(0, 0, 0, 0.09) 0px 16px 8px, rgba(0, 0, 0, 0.09) 0px 32px 16px;
-}
-
-.map_description {
-  padding: 1rem;
-  text-align: center;
-}
-
-.map_title {
-  text-align: center;
-}
-
-.img {
-  display: block;
-  margin: auto;
-}
-
-.map--back {
-  background-color: white;
-}
-
-.map_frame {
-  width: 100%;
 }
