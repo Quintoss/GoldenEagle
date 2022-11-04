@@ -1,0 +1,32 @@
+footer {
+  text-align: center;
+  background-color: black;
+}
+
+.footer_social h2 {
+  color: white;
+  text-align: center;
+  font-size: 1rem;
+  padding: 1rem;
+}
+
+.footer_social a {
+  color: white;
+  margin: 1rem;
+}
+
+.footer_copyright {
+  color: white;
+  text-align: center;
+}
+
+.footer_copyright h2 {
+  color: white;
+  padding: 1rem;
+  font-size: 1rem;
+}
+
+.footer_social a:hover {
+  opacity: 0.7;
+  color: $orange-color;
+}

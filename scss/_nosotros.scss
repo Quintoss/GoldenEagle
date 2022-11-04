@@ -1,0 +1,26 @@
+.nosotros_banner {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)),
+    url("https://images.unsplash.com/photo-1549060279-7e168fcee0c2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 80%;
+  padding: 7%;
+}
+
+.nosotros_video {
+  padding: 2rem;
+  text-align: center;
+  background: rgb(20, 20, 19);
+  background: linear-gradient(
+    90deg,
+    rgba(20, 20, 19, 1) 10%,
+    rgba(68, 64, 64, 1) 49%,
+    rgba(27, 27, 27, 1) 100%
+  );
+}
+
+.video {
+  margin: 3rem;
+  width: 40%;
+}
