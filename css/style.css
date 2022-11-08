@@ -96,6 +96,10 @@
   .video {
     width: 80%;
   }
+  .banner {
+    font-size: 3rem;
+    font-weight: 400;
+  }
 }
 @media screen and (min-width: 800px) {
   .hero_description {
