@@ -1,27 +1,29 @@
-.footer_social h2 {
-  color: white;
-  text-align: center;
-  font-size: 1rem;
-  padding: 1rem;
-}
+.footer_social {
+  h2 {
+    color: white;
+    text-align: center;
+    font-size: 1rem;
+    padding: 1rem;
+  }
 
-.footer_social a {
-  color: white;
-  margin: 1rem;
+  a {
+    color: white;
+    margin: 1rem;
+
+    &:hover {
+      opacity: 0.7;
+      color: #fd7e14;
+    }
+  }
 }
 
 .footer_copyright {
   color: white;
   text-align: center;
-}
 
-.footer_copyright h2 {
-  color: white;
-  padding: 1rem;
-  font-size: 1rem;
-}
-
-.footer_social a:hover {
-  opacity: 0.7;
-  color: #fd7e14;
+  h2 {
+    color: white;
+    padding: 1rem;
+    font-size: 1rem;
+  }
 }
