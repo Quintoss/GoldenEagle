@@ -7,15 +7,25 @@
     font-size: 3rem;
     font-weight: 400;
   }
+
+  .hero {
+    height: 100%;
+    padding: auto;
+  }
 }
 
 @media screen and (min-width: 800px) {
-  .hero_description {
-    opacity: 0;
-    transition: opacity 2s;
+  .hero {
+    height: 100%;
+    padding: auto;
 
-    &:hover {
-      opacity: 1;
+    &_description {
+      opacity: 0;
+      transition: opacity 2s;
+
+      &:hover {
+        opacity: 1;
+      }
     }
   }
 

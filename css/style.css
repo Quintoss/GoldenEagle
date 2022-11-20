@@ -36,7 +36,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 12vh;
+  height: 10vh;
   padding: 18.2%;
 }
 .hero_text {
@@ -100,8 +100,16 @@
     font-size: 3rem;
     font-weight: 400;
   }
+  .hero {
+    height: 100%;
+    padding: auto;
+  }
 }
 @media screen and (min-width: 800px) {
+  .hero {
+    height: 100%;
+    padding: auto;
+  }
   .hero_description {
     opacity: 0;
     transition: opacity 2s;
